@@ -1,0 +1,127 @@
+
+/* apply css too the title */
+.title
+{
+  font-size: 20px;
+}
+
+/* apply css too the div  */
+.login-page {
+    top: 0; 
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color:#0081a7;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  mat-card {
+    width: 50%;
+    height: 50%;
+    margin: 10% auto;
+    border-radius: 8px;
+    background-color: #ffbd00;
+  }
+
+  .email-label
+  {
+    margin-top: 2px;
+  }
+
+  .email-input
+  {
+    margin-top: 20px;
+    background-color: #2ec4b6;
+    border-radius: 5px;
+    height: 20px;
+  }
+
+  .password-label
+  {
+    margin-top: 2px;
+  }
+
+  .password-input
+  {
+    margin-top: 20px;
+    background-color:#2ec4b6;
+    border-radius: 5px;
+    height: 20px;
+  }
+
+  mat-form-field, mat-checkbox {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  mat-card-content {
+    margin-top: 15px;
+  }
+  
+  .login-button {
+    margin-top: 25px;
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #0081a7;
+  }
+  
+  /* Apply css too the signup form: */
+  .Username-label
+  {
+    margin-top: 2px;
+  }
+
+  .input-username
+  {
+    margin-top: 20px;
+    background-color:#2ec4b6;
+    border-radius: 5px;
+    height: 20px;
+  }
+
+  .Email-label
+  {
+    margin-top: 2px;
+  }
+
+  .input-email
+  {
+    margin-top: 20px;
+    background-color:#2ec4b6;
+    border-radius: 5px;
+    height: 20px;
+  }
+
+  .Password-label
+  {
+    margin-top: 2px;
+  }
+
+  .input-password
+  {
+    margin-top: 20px;
+    background-color:#2ec4b6;
+    border-radius: 5px;
+    height: 20px;
+  }
+
+  .Cpassword-label
+  {
+    margin-top: 2px;
+  }
+
+  .input-repassword
+  {
+    margin-top: 20px;
+    background-color:#2ec4b6;
+    border-radius: 5px;
+    height: 20px;
+  }

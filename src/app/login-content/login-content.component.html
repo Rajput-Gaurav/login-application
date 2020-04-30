@@ -1,0 +1,90 @@
+
+<div class="login-page">
+    <mat-card class="mat-elevation-z12">
+        <mat-card-title style="text-align:center;" class="title">SignIn/SignUp</mat-card-title>
+        <mat-tab-group mat-stretch-tabs class="example-stretched-tabs">
+            <mat-tab label="Sign In">
+                <mat-card-content>
+                    <form action="">
+
+                        <div class="form-field">
+                        <mat-form-field class="example-full-width">
+                            <mat-label class="email-label">Email</mat-label>
+                            <input matInput formControlName="email" class="email-input" placeholder="Email">
+                            
+                            <!-- <mat-hint>use like: abc@gmail.com</mat-hint> -->
+                           
+                            <mat-icon matSuffix class="email-icon">email</mat-icon>
+                        </mat-form-field>
+                        </div>
+
+                        <div class="form-field">
+                        <mat-form-field>
+                            <mat-label class="password-label">Password</mat-label>
+                            <input matInput placeholder="Password" type="password" formControlName="password" class="password-input">
+                          
+                            <mat-icon matSuffix>lock</mat-icon>
+                        </mat-form-field>
+                       </div>
+
+                       <div class="form-field">
+                        <mat-checkbox>Remember Me!</mat-checkbox>
+                       </div>
+
+                       <div class="form-field">
+                        <button mat-raised-button color="primary" class="login-button">
+                            Sign In
+                        </button>
+
+                        <button mat-raised-button class="login-button">
+                            Login with Google
+                        </button>
+                    </div>
+
+                    </form>
+                </mat-card-content>
+            </mat-tab>
+
+            <mat-tab label="Sign Up">
+                <mat-card-content>
+                    <form action="">
+
+                        <mat-form-field>
+                            <mat-label class="Username-label">UserName</mat-label>
+                            <input matInput placeholder="UserName" formControlName="username" class="input-username" >
+                            <mat-icon matSuffix>perm_identity</mat-icon>
+                       
+                        </mat-form-field>
+
+                        <mat-form-field>
+                            <mat-label class="Email-label">Email</mat-label>
+                            <input matInput placeholder="Email" formControlName="email" class="input-email">
+                            
+                            <mat-icon matSuffix>email</mat-icon>
+                        </mat-form-field>
+
+                        <mat-form-field>
+                            <mat-label class="Password-label">Password</mat-label>
+                            <input matInput placeholder="Password" type="password" formControlName="password" class="input-password" >
+                            
+                            <mat-icon matSuffix>lock</mat-icon>
+
+                        </mat-form-field>
+
+                        <mat-form-field>
+                            <mat-label class="Cpassword-label">Confirm Password</mat-label>
+                            <input matInput placeholder="Password" type="password" formControlName="repassword" class="input-repassword">
+                            
+                            <mat-icon matSuffix>lock</mat-icon>
+                        </mat-form-field>
+
+                        <button mat-raised-button color="primary" class="login-button">
+                            Sign Up
+                        </button>
+
+                    </form>
+                </mat-card-content>
+            </mat-tab>
+        </mat-tab-group>
+    </mat-card>
+</div>

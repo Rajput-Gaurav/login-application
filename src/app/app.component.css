@@ -1,0 +1,13 @@
+/* @import '@angular/material/prebuilt-themes/deeppurple-amber.css'; */
+
+.toolbar
+{
+    background-color: #ffbd00;
+    font-size: 25px;
+    font-family: Roboto, sans-serif;
+}
+
+.welcome-heading
+{
+    margin-left: 40%;
+}
