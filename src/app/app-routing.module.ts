@@ -22,7 +22,7 @@ export class AppRoutingModule { }
 export const routes:Routes =[
 
 
-  {
-    path:'login-content', component:LoginContentComponent
-  },
+  // {
+  //   path:'login-content', component:LoginContentComponent
+  // },
 ];

@@ -22,11 +22,26 @@ import { MatCardModule,
           MatCheckboxModule,
           MatIconModule} from '@angular/material';
 
+          // create a new module file for eager and feature loading:
+import { DashboardRoutingModule } from './dashboard/dashboard-routing.module';
+import { NavbarComponent } from './dashboard/navbar/navbar.component';
+import { HomeComponent } from './home/home.component';
+import { BlogComponent } from './blog/blog.component';
+import { QuotesComponent } from './quotes/quotes.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginContentComponent
+    LoginContentComponent,
+    NavbarComponent,
+    HomeComponent,
+    BlogComponent,
+    QuotesComponent,
+    AboutUsComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
@@ -42,7 +57,8 @@ import { MatCardModule,
     MatIconModule,
 
     AppRoutingModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    DashboardRoutingModule
   ],
 
   exports:[BrowserAnimationsModule,

@@ -1,0 +1,30 @@
+/* apply css too the toolbar: */
+mat-toolbar
+{
+    background-color: #311B92;
+    color:white;
+    
+}
+
+/* apply css too the home link navbar */
+/* a:hover:not(.active)
+{
+    background-color: #311B92;
+} */
+
+/* .active
+{
+    background-color: green;
+} */
+
+/* use div class spacer too move the content too the right side: */
+.spacer
+{
+    flex: 1 1 auto;
+}
+
+/* apply css too the sign-in button: */
+.sign-in-button
+{
+    background-color: #F50057;
+}
